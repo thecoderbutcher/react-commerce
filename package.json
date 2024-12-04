@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=https://thecoderbutcher.github.io/react-commerce/",
+    "build": "vite build --base=https://thecoderbutcher.github.io/react-commerce/dist/",
     "lint": "eslint .",
     "preview": "vite preview"
   },
