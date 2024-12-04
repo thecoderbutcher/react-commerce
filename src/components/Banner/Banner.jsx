@@ -4,7 +4,7 @@ import { IoFastFood } from "react-icons/io5"
 import { GiFoodTruck } from "react-icons/gi"
 const Banner = () => {
     return (
-        <div className="min-h-[550px] flex justify-center items-center py-12 sm:py-0">
+        <div className="min-h-[550px] flex justify-center items-center py-12 sm:py-0 dark:bg-secondary-dark/80">
             <div className="container">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 items-center">
                     <div data-aos="zoom-in">
@@ -19,7 +19,7 @@ const Banner = () => {
                             Winter Sale upto 50% off
                         </h1>
                         <p className="text-sm text-tertiary-dark dark:text-tertiary/60 tracking-wide leading-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae</p>
-                        <div className="flex flex-col gap-4">
+                        <div className="flex flex-col gap-4 dark:text-tertiary/70">
                             <div className="flex items-center gap-4" data-aos="fade-up">
                                 <GrSecure className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-violet-100 dark:bg-violet-400"/>
                                 <p>Quality Products</p>
