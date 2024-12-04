@@ -2,7 +2,7 @@
 const Subscribe = () => {
     return (
         <div
-            className="bg-gradient-to-r from-accent-dark to-accent duration-200 py-10 mb-20"
+            className="bg-gradient-to-r from-accent-dark to-accent duration-200 py-10"
             data-aos="zoom-in"
         >
             <div className="container backdrop-blur-sm py-10">

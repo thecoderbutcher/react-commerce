@@ -139,3 +139,43 @@ export const topProducts = [
         image: Shirt,
     }
 ]
+
+export const testimonials = [
+    {
+        id: 1,
+        name: "John Doe", 
+        image: Man,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae."
+    }, 
+    {
+        id: 2,
+        name: "Jane Doe", 
+        image: Women,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae."
+    },
+    {
+        id: 3,
+        name: "John Doe", 
+        image: Man,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae."
+    },
+    {
+        id: 4,
+        name: "Jane Doe", 
+        image: Women,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae."
+    },
+    {
+        id: 5,
+        name: "John Doe", 
+        image: Man,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae."
+    },
+    {
+        id: 6,
+        name: "Jane Doe", 
+        image: Women,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae."
+    }
+    
+]
