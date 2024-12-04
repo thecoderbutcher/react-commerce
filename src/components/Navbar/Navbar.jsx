@@ -3,7 +3,7 @@ import logo from "../../assets/img/ecommerce-logo.webp"
 import { IoMdSearch } from "react-icons/io"
 import DarkMode from "./DarkMode"
 import { dropdown, menu } from "../../constant"
-const Navbar = () => {
+const Navbar = ({handleOrderPopup}) => {
     return (
         <nav className="shadow-md bg-primary/20 text-secondary dark:bg-primary-dark dark:secondary-dark transition-all duration-200 relative z-40">
             {/* upper navigation */}
@@ -28,7 +28,7 @@ const Navbar = () => {
                                 <IoMdSearch className="text-primary group-hover:text-secondary absolute top-1/2 -translate-y-1/2 right-3"/>
                         </div>
                         <button 
-                            onClick={() => alert("Ordering not available yet")} 
+                            onClick={() => handleOrderPopup()} 
                             className="bg-gradient-to-r from-accent to-accent-dark text-tertiary py-1 px-4 rounded-full flex items-center gap-3 group transition-all duration-200">
                             <span className="group-hover:block hidden transition-all duration-300 ease-in-out">
                                 Order
@@ -40,7 +40,7 @@ const Navbar = () => {
                 </div>
             </ul>
             {/* lower navigation */}
-            <div className="flex justify-center bg-tertiary text-secondary-dark/70 dark:bg-secondary-dark/50 dark:text-tertiary/60 ">
+            <div data-aos="zoom-in" className="flex justify-center bg-tertiary text-secondary-dark/70 dark:bg-secondary-dark/50 dark:text-tertiary/60 ">
                 <ul className="sm:flex hidden items-center gap-4">
                     {menu.map((data) => (
                         <li key={data.id} >
