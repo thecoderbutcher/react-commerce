@@ -16,7 +16,7 @@ const Testimonials = () => {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nemo eos, sint quod veritatis id impedit
                     </p>
                 </div>
-                <div>
+                <div data-aos="zoom-in">
                     <Swiper
                         spaceBetween={30}
                         slidesPerView={3}

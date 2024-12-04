@@ -8,6 +8,7 @@ import TopProducts from "./components/Products/TopProducts"
 import Banner from "./components/Banner/Banner"
 import Subscribe from "./components/Banner/Subscribe"
 import Testimonials from "./components/Testimonials/Testimonials"
+import Footer from "./components/Footer/Footer"
 
 const App = () => {
   useEffect(() => {
@@ -27,6 +28,7 @@ const App = () => {
       <Banner/>
       <Subscribe/>
       <Testimonials/>
+      <Footer/>
     </main>
   )
 }

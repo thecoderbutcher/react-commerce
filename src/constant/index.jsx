@@ -177,5 +177,27 @@ export const testimonials = [
         image: Women,
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae."
     }
-    
+]
+
+export const footerLinks = [
+    {
+        id: 1,
+        name: "About Us",
+        link: "/#about",
+    },
+    {
+        id: 2,
+        name: "Contact Us",
+        link: "/#contact",
+    },
+    {
+        id: 3,
+        name: "Privacy Policy",
+        link: "/#privacy",
+    },
+    {
+        id: 4,
+        name: "Terms of Use",
+        link: "/#terms",
+    },
 ]
